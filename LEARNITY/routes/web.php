@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\forgetController;
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\signinController;
 use App\Http\Controllers\signupController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,5 +22,9 @@ Route::get('/', function () {
 });
 
 Route::get('/signup',[signupController::class,'signup']);
+Route::get('/signin',[signinController::class, 'signin']);
+Route::get('/forgetpassword',[forgetController::class, 'forgetPassword']);
+Route::get('/homepage',[homeController::class, 'home']);
+
 
 
