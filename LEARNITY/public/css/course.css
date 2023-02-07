@@ -1,0 +1,109 @@
+.logo {
+    /* position: absolute; */
+    transform: translate(0%, 0%);
+    color: white;
+}
+
+.logo .logo-n{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.logo .ggg-txt{
+    font-size: 12px;
+    text-align: end;
+    font-weight: 100;
+}
+
+.logo .triangle{
+    display: flex;
+    /* justify-content: space-between; */
+    /* position: absolute; */
+    /* top: -5%; */
+}
+
+.logo .tri-o-r{
+    border-bottom: 20px solid red;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin: 0 5px;
+}
+
+.logo .tri-o-g{
+    border-top: 20px solid green;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin: 0 5px;
+}
+
+.logo .tri-o-b{
+    border-bottom: 20px solid blue;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin: 0 5px;
+}
+
+.list-lesson-sb{
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 15px 30px;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+.list-lesson-sb .txt-course-title{
+    border-bottom: 1px solid black ;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.list-lesson-sb .list-mn{
+    font-size: 18px;
+}
+
+.ls-style{
+    padding: 15px 5px;
+    border: 1px solid lightslategray;
+}
+
+.ls-style:hover{
+    /* background: -webkit-linear-gradient(right, #00DAFD, white, #00DAFD, white); */
+    background-color: #00DAFD;
+    cursor: pointer;
+}
+
+.workspace{ 
+    width: calc(100% - 300px);
+    position: absolute;
+    right: 0;
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* padding: 20px;
+    margin: 20px; */
+    /* display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(500px, auto);
+    grid-gap: 30px; */
+
+}
+
+.workspace .vdo-showing{
+    width: 1400px;
+    height: 700px;
+    background-color: black;
+    /* position: absolute; */
+    
+}
+
+
+
+
+

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\courseController;
 use App\Http\Controllers\forgetController;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\signinController;
@@ -17,14 +18,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 
 Route::get('/signup',[signupController::class,'signup']);
-Route::get('/signin',[signinController::class, 'signin']);
+Route::get('/',[signinController::class, 'signin']);
 Route::get('/forgetpassword',[forgetController::class, 'forgetPassword']);
 Route::get('/homepage',[homeController::class, 'home']);
+Route::get('/course',[courseController::class,'courseLesson']);
 
 
 
